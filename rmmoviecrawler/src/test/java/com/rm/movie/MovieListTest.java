@@ -2,13 +2,11 @@ package com.rm.movie;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.rm.moviecrawler.RMEnglishMovieListGetter;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
-
-@Ignore
 public class MovieListTest {
 
 	@Before

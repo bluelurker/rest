@@ -13,8 +13,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
-
 public class MovieListTest2 {
 
 	@Before
@@ -44,7 +42,6 @@ public class MovieListTest2 {
 	}
 
 	@Test
-	@Ignore
 	public void dateFormatter() throws Exception {
 		DateFormat fmt = new SimpleDateFormat("MMMM dd, yyyy", Locale.US);
 		Date d = fmt.parse("June 27,  2007");
