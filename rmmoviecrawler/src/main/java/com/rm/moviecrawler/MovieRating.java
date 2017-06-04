@@ -1,5 +1,8 @@
 package com.rm.moviecrawler;
 
+/**
+A Pojo for the movie class
+ */
 public class MovieRating implements Comparable<MovieRating> {
 	private String movieName;
 	private float movieRating;
