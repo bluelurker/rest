@@ -1,4 +1,4 @@
-package com.rm.moviecrawler;
+package com.rm.moviecrawler.english;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -11,6 +11,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import com.rm.moviecrawler.common.MovieRating;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;

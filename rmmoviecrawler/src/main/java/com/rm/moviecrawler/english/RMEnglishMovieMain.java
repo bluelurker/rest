@@ -1,4 +1,7 @@
-package com.rm.moviecrawler;
+package com.rm.moviecrawler.english;
+
+import com.rm.moviecrawler.common.MovieRating;
+import com.rm.moviecrawler.common.RMReportGenerator;
 
 import java.io.File;
 import java.util.Collections;

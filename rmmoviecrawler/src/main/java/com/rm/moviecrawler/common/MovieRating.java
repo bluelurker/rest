@@ -1,4 +1,4 @@
-package com.rm.moviecrawler;
+package com.rm.moviecrawler.common;
 
 /**
 A Pojo for the movie class

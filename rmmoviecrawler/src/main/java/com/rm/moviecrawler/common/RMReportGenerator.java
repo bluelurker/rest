@@ -1,4 +1,4 @@
-package com.rm.moviecrawler;
+package com.rm.moviecrawler.common;
 
 import java.io.File;
 import java.util.List;

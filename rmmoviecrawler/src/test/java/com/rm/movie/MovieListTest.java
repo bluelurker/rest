@@ -2,10 +2,9 @@ package com.rm.movie;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
-import com.rm.moviecrawler.RMEnglishMovieListGetter;
+import com.rm.moviecrawler.english.RMEnglishMovieListGetter;
 
 public class MovieListTest {
 

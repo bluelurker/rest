@@ -1,4 +1,4 @@
-package com.rm.moviecrawler;
+package com.rm.moviecrawler.english;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import static com.rm.moviecrawler.RMWebCrawlerConstants.*;
+import static com.rm.moviecrawler.common.RMWebCrawlerConstants.*;
 
 public class RMEnglishMovieListGetter {
 	private static final Queue<String> movieUrls = new ArrayBlockingQueue<>(10000);
